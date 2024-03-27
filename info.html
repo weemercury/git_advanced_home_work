@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="JS/app.js"></script>
+    <title>Моя страница</title>
+</head>  
+
+<body>
+    <div class="container">
+        <header>
+            <div class="title">Информация</div>
+        </header>
+
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="info.html">Чат</a>
+        </nav>
+
+        <div class="main">
+            <h1>Домашнее задание по основам JS</h1>
+
+            <input type="text" placeholder="Введите Ваше имя..." id="name">
+            <input type="text" placeholder="Введите Ваше сообщение..." id="message">
+            <button onclick="send()">Ввод</button>
+           
+           <br><br>
+            <div id="error"></div>
+            <div id="result"></div>
+           
+            <ul>
+                <li>Бывают в мягком переплете</li>
+                <li>Есть книги в твердом переплете</li>
+                <li>Книги бывают на бумажных и электронных носителях</li>
+            </ul>
+        </div>
+
+        <footer>
+            (с) 2023 копирование разрешено, создано в демонстративных целях
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
